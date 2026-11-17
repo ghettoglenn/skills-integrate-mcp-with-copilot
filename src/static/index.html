@@ -7,12 +7,64 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="branch-background" aria-hidden="true">
+      <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+        <path d="M90 0v180c0 55 35 90 90 90h95c55 0 90 35 90 90v120" />
+        <path d="M1350 0v140c0 55-35 90-90 90h-110c-55 0-90 35-90 90v130" />
+        <path d="M0 680h190c55 0 90-35 90-90v-90c0-55 35-90 90-90h130" />
+        <path d="M1440 700h-210c-55 0-90-35-90-90v-80c0-55-35-90-90-90h-110" />
+        <circle cx="90" cy="180" r="8" />
+        <circle cx="365" cy="480" r="8" />
+        <circle cx="1350" cy="140" r="8" />
+        <circle cx="1060" cy="450" r="8" />
+        <circle cx="280" cy="590" r="8" />
+        <circle cx="1140" cy="530" r="8" />
+      </svg>
+    </div>
+
     <header>
       <h1>Mergington High School</h1>
       <h2>Extracurricular Activities</h2>
     </header>
 
     <main>
+      <section class="mascot-gallery" aria-labelledby="mascots-heading">
+        <h3 id="mascots-heading">Meet our school mascots</h3>
+        <div class="mascot-list">
+          <a href="https://octodex.github.com/partymartytocat/" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://octodex.github.com/images/partymartytocat.png"
+              alt="Partymartytocat from GitHub Octodex"
+              width="180"
+              height="180"
+              loading="lazy"
+            />
+            <span>Partymartytocat</span>
+          </a>
+          <a href="https://octodex.github.com/bombacat/" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://octodex.github.com/images/Bombacat_Octodex.png"
+              alt="Bombacat from GitHub Octodex"
+              width="180"
+              height="180"
+              loading="lazy"
+            />
+            <span>Bombacat</span>
+          </a>
+          <a href="https://octodex.github.com/octovets/" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://octodex.github.com/images/octovets_FULL.png"
+              alt="Octovets from GitHub Octodex"
+              width="180"
+              height="180"
+              loading="lazy"
+            />
+            <span>Octovets</span>
+          </a>
+        </div>
+        <p class="mascot-credit">Mascot artwork by the <a href="https://octodex.github.com/" target="_blank" rel="noopener noreferrer">GitHub Octodex community</a>.</p>
+      </section>
+
       <section id="activities-container">
         <h3>Available Activities</h3>
         <div id="activities-list">
